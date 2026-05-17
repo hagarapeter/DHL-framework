@@ -8,7 +8,7 @@ export class BasePage {
     }
 
     async goto(url: string) {
-        await this.page.goto(url, { waitUntil: "load", timeout: 10000 });
+        await this.page.goto(url, { waitUntil: "domcontentloaded", timeout: 10000 });
     }
 
     async acceptCookies() {
