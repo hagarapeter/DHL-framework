@@ -1,0 +1,21 @@
+{
+  "name": "playwright_dhl",
+  "version": "1.0.0",
+  "description": "Automated test suite for DHL Customer Service FAQ flow",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "report": "npx playwright show-report"
+  },
+
+  "keywords": [],
+  "author": "Peter Hagara",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.7.0"
+  }
+}
