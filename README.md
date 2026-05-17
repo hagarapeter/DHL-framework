@@ -22,11 +22,11 @@ npm run report            # open HTML report
 
 ```
 page-objects/
-  BasePage.ts             # shared navigation and cookie handling
-  CustomerServicePage.ts  # FAQ interactions
-  ContactPage.ts          # redirect assertions
+  BasePage.ts             
+  CustomerServicePage.ts 
+  ContactPage.ts         
 tests/
-  customerService.test.ts
+  001_Redirecting_CustomerServicePage_ToContactPage.test.ts
 playwright.config.ts
 tsconfig.json
 ```
